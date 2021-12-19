@@ -66,7 +66,11 @@
     "release": "standard-version"
   },
   "target": "web",
+<<<<<<< HEAD
+  "dependencies": {}
+=======
   "dependencies": {
     "ramda": "^0.27.1"
   }
+>>>>>>> dev
 }
