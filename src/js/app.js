@@ -1,9 +1,9 @@
 import "../scss/app.scss";
-<<<<<<< HEAD
+
 // const R = require("ramda");
-=======
+
 const R = require("ramda");
->>>>>>> dev
+
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
   
@@ -18,15 +18,15 @@ window.addEventListener("DOMContentLoaded", () => {
   const li1Content = document.createTextNode(`${nativeJS[0]}`);
   const li2Content = document.createTextNode(`${nativeJS[1]}`);
 
-<<<<<<< HEAD
+
   li1.appendChild(li1Content);
   li2.appendChild(li2Content);
   ul.appendChild(li1);
   ul.appendChild(li2);
-=======
+
   const ul = document.querySelector("ul");
   const numbersArray = [1, 3, 4, 5, 6, 7];
   const isEven = (n) => n % 2 === 0;
   const filteredArray = R.filter(isEven, numbersArray);
->>>>>>> dev
+
 });
